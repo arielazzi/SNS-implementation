@@ -8,7 +8,7 @@
 Access `SNS` folder and run the following command
 
 ```js
-node -r dotenv/config src/createTopic.js
+node -r dotenv/config src/CreateTopic.js
 ```
 
 ### Publish message 
@@ -16,5 +16,21 @@ node -r dotenv/config src/createTopic.js
 Access `SNS` folder and run the following command
 
 ```js
-node -r dotenv/config src/publishMessage.js
+node -r dotenv/config src/PublishMessage.js
+```
+
+### List Subscriptions 
+
+Access `SNS` folder and run the following command
+
+```js
+node -r dotenv/config src/ListSubscriptions.js
+```
+
+### List Topics 
+
+Access `SNS` folder and run the following command
+
+```js
+node -r dotenv/config src/ListTopics.js
 ```
